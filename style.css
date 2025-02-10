@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: rgb(246, 149, 185);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#prankButton{
+    top: 70%;
+    left: 50%;
+}
+
+#yes{
+    top: 70%;
+    left: 40%;
+}
+
+.img-container{
+    height: 50vh;
+    width: 30%;
+    margin-left: 35%;
+}
+
+.img-container img{
+    height: 100%;
+    width: 100%;
+}
