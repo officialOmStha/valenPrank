@@ -58,4 +58,10 @@ button {
         top: 85%;
         left: 20%;
     }
+
+    .img-container{
+        height: 50vh;
+        width: 60%;
+        margin-left: 20%;
+    }
 }
