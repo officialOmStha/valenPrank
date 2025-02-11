@@ -47,3 +47,15 @@ button {
     height: 100%;
     width: 100%;
 }
+
+@media(max-width: 410px){
+    #prankButton{
+        left: 60%;
+        top: 85%;
+    }
+    
+    #yes{
+        top: 85%;
+        left: 20%;
+    }
+}
