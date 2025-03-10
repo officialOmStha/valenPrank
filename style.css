@@ -49,13 +49,17 @@ button {
 }
 
 @media(max-width: 410px){
+    body{
+        height: 100vh;
+        overflow: hidden;
+    }
     #prankButton{
         left: 60%;
-        top: 85%;
+        top: 75%;
     }
     
     #yes{
-        top: 85%;
+        top: 75%;
         left: 20%;
     }
 
